@@ -1,0 +1,78 @@
+* {
+ font-size: 100%;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body{
+	background-image: url("../images/INDIANA JONES RAIDERS LOST ARK action adventure f wallpaper background.jpg");
+	background-color: #cccccc;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+div.header, div.skulls{
+	background-color: #fff;
+}
+div.header, div.instructions{
+	width: 40%;
+}
+
+#adventure {
+	margin-left: 110px;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 18.8%;
+	height: 60px;
+}
+.userTotal{
+	width: 40%;
+	height: 60px;
+}
+.skulls{
+	clear: both;
+	width: 40%;
+}
+.skullImage{
+	height: 60px;
+	margin: 30px;
+	padding-left: 20px;
+	margin-left: 40px;
+}
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}

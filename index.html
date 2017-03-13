@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<!-- <h1>Crystal Skull Collector</h1> -->
+		<img src="assets/images/cclogo.png" id="adventure">
+	</div>
+	<div class="instructions">
+		<h3>Here's how you play the game</h3>
+		</br>
+		<ol>
+		<li>This has nothing to do with any film in the Indiana Jones franchise.</li>
+			<li>You will be given a random number at the start of the game called:<span>"Number To Reach"</span></li>
+			<li>There are four crystal skulls below.</li>
+			<ul>
+				<li id="blue">Blue</li>
+				<li id="green">Green</li>
+				<li id="red">Red</li>
+				<li id="yellow">Yellow</li>
+			</ul>
+			<li>By clicking on a crystal skull, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each crystal skull is hidden from you until you click on it.</li>
+			<li>Each time the game starts, the game will change the values of each crystal.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="skulls">
+		<img src="assets/images/blue.png" class=skullImage id="one" alt="Blue Skull">
+		<img src="assets/images/green.png" class=skullImage id="two" alt="Green Skull">
+		<img src="assets/images/red.png" class=skullImage id= "three" alt="Red Skull">
+		<img src="assets/images/yellow.png" class=skullImage id= "four" alt="Yellow Skull">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/Index.js"></script>
+</body>
+</html>
